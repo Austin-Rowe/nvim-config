@@ -131,13 +131,9 @@ return {
     -- - settings (table): Override the default settings passed when initializing the server.
     local servers = {
       ts_ls = {},
-      ruff = {},
       html = { filetypes = { 'html', 'twig', 'hbs' } },
       cssls = {},
       tailwindcss = {},
-      dockerls = {},
-      sqlls = {},
-      terraformls = {},
       jsonls = {},
       yamlls = {},
       lua_ls = {
